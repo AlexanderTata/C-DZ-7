@@ -38,6 +38,7 @@ static void PrintArray(double[,] array)
             Console.Write(array[i, j] + "\t");
        }
     }
-    Console.WriteLine();
+        Console.WriteLine();
 
 }
+    Console.WriteLine();   
