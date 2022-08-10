@@ -1,4 +1,4 @@
-﻿{
+﻿
 //Задача 47. Задайте двумерный массив размером m×n,
 //заполненный случайными вещественными числами, округлёнными до одного знака.
 
@@ -9,7 +9,6 @@
     double[,] array = new double[rows, columns];
     FillArray(array);
     PrintArray(array);
-}
 
 static void FillArray(double[,] array)
 {
